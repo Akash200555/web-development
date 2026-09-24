@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    height: 0px;
+}
+
+.box{
+    height: 100px;;
+    width: 150px;
+    background-color: red;
+    animation-name: moving;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation-direction: alternate; */
+    animation-delay: 5s;
+    /* animation-fill-mode: both; */
+    position: absolute;
+
+}
+
+@keyframes moving {
+    0%{
+        background-color: pink;
+        top: 10px;
+        left: 10px;
+    }
+    25%{
+        background-color: blue;
+        top: 10px;
+        left: 800px;
+    }
+    50%{
+        background-color: rgb(255, 0, 0);
+        top: 600px;
+        left: 800px;
+    }
+    75%{
+        background-color: rgb(8, 221, 72);
+        top: 600px;
+        left: 10px;
+    }
+    100%{
+        background-color: pink;
+        top: 10px;
+        left: 10px;
+    }
+    
+}

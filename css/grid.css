@@ -1,0 +1,107 @@
+/* *{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: aquamarine;
+
+}
+
+.container{
+    display: flex;
+    background-color: black;
+    padding: 5px;
+    gap: 10px;
+
+}
+
+.box{
+    height: 300px;
+    width: 200px;
+}
+
+.first{
+    background-color: rgb(215, 138, 23);
+}
+.second{
+    
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.child{
+    background-color: red;
+    height: 140px;
+    
+
+} */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+}
+
+body{
+    background-color: black;
+    
+}
+
+/* .container{
+    padding: 10px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    
+} */
+/* .container{
+    padding: 10px;
+    display:grid;
+    grid-template-columns: 200px  200px;
+    grid-template-rows: 200px  200px;
+    gap: 10px;
+    height: 420px;
+    width: 420px;
+    background-color: aqua;
+    
+} */
+
+.container{
+    height: 600px;
+    width:600px;
+    padding: 10px;
+    display:grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-template-rows:repeat(8,1fr);
+    
+}
+
+.white{
+    background-color: white;
+}
+
+.brown{
+    background-color: brown;
+}
+
+
+/* .first{
+    background-color: orange;
+}
+.second{
+    background-color: rgb(233, 22, 145);
+}
+.third{
+    background-color: rgb(10, 206, 150);
+}
+.fourth{
+    background-color: rgb(27, 11, 204);
+} */

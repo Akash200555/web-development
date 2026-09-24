@@ -1,0 +1,52 @@
+.container{
+    background-color: antiquewhite;
+    display: flex;
+    height: 600px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* justify-content: works around main axis.
+flex-direction decides the main axis. 
+ */
+ /* align item works around cross axis */
+
+.box{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+
+}
+
+.first{
+    background-color: aqua;
+    flex-grow: 1;
+    /* flex-basis: 300px; */
+}
+
+/* flex-basis */
+
+/* when flex direction is row then 
+width will increase.
+and when flex directrion is column 
+then height will increase. 
+ */ 
+
+.second{
+    background-color: green;
+    flex-grow: 1;
+    /* flex-basis: 300px; */
+}
+
+.third{
+    background-color: red;
+    flex-grow: 1;
+    align-self: self-start;
+}
+
+.fourth{
+    background-color: aquamarine;
+    flex-grow: 1;
+}

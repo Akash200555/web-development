@@ -1,0 +1,61 @@
+/* tag based selection */
+/* h1{
+    background-color: aquamarine;
+}
+
+h2{
+    background-color: bisque;
+} */
+
+/* id based selection */
+
+/* #akash{
+    background-color: blue;
+}
+#patel{
+    background-color: blueviolet;
+}
+ul{
+    background-color: aqua;
+}
+
+#kumar{
+    background-color: chartreuse;
+} */
+
+/* class or group based selection */
+
+/* .first{
+    background-color: green;
+} */
+
+/* 
+font size */
+
+
+/* h1{
+    font-size: 100px;
+}
+
+ul{
+    font-size: 20px;
+} */
+/* li{
+    font-size: 2em;
+} */
+
+/* html{
+    font-size: 40px;
+}
+h2{
+    font-size: 2rem;
+}
+
+li{ */
+    /* font-size: 5vh; */
+    /* font-size: 200%;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+} */

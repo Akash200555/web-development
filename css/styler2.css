@@ -1,0 +1,64 @@
+h1{
+    background-color: aqua;
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: pink;
+
+    
+    border: 10px solid black;
+    /* padding:10px;
+    margin: 15px; 
+    padding: 200px 50px 30px 100px;
+    border-radius: 50px; */
+    /* display: inline; */
+    box-sizing: border-box;
+
+}
+
+/* to cover default margin */
+
+/* *{
+        margin: 0px;
+        padding: 0px;
+    } */
+
+h2{
+    background-color: rgb(225, 18, 153);
+    height: 300px;
+    width: 300px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: rgb(6, 216, 128);
+    padding:10px;
+    margin: 15px;
+    border-radius: 20px;
+    box-sizing: content-box;
+    
+} 
+/* #patel{
+    background-color: rgb(218, 159, 21);
+    border: 10px solid rgb(78, 19, 227);
+    padding:10px;
+    margin: 15px;
+    border-radius: 30px;
+}  */
+
+/* #akash{
+    background-color: aquamarine;
+    text-decoration-style: dashed;
+    border: 10px solid rgb(174, 6, 6);
+    padding:10px;
+    margin: 15px;
+    border-radius: 30px;
+} */
+
+span{
+    
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    margin: 30px;
+
+}
