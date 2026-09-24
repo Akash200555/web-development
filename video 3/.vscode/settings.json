@@ -1,0 +1,9 @@
+{
+    "livePreview.hostIP": "10.251.186.229",
+    "livePreview.httpHeaders": {
+        
+        "Accept-RangeAccepts": "bytes"
+    },
+    "liveServer.settings.host": "10.251.186.229",
+    "liveServer.settings.fullReload": true
+}
